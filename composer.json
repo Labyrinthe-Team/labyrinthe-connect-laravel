@@ -50,18 +50,6 @@
         "orchestra/testbench": "^8.22 || ^9.0 || ^10.0 || ^11.0",
         "phpunit/phpunit": "^10.5 || ^11.5 || ^12.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../php",
-            "options": {
-                "symlink": true,
-                "versions": {
-                    "labyrinthe/connect-php": "1.2.0"
-                }
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Labyrinthe\\Connect\\Laravel\\": "src/"
